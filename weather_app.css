@@ -1,0 +1,101 @@
+.hidden {
+    opacity: 0;
+    transition: ease-in 0.3s;
+}
+
+.show {
+    opacity: 1;
+    transition: ease-in 0.3s;
+}
+
+body {
+
+    background-image: url("https://64.media.tumblr.com/20b34e8d12d4230f9b362d7feb148c57/tumblr_oiwytz4dh41tf8vylo1_1280.pnj");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: "EB Garamond", serif;
+    color: #013a63;
+}
+
+section {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    box-shadow: -1px 1px 15px rgb(138, 138, 138), 1px -1px 15px rgb(138, 138, 138);
+
+    display: inline-block;
+    min-height: 50vh;
+    width: 380px;
+
+    border: 1.5px solid #e5e5e5;
+    border-radius: 10px;
+
+}
+
+form {
+    margin: 5% 5%;
+}
+
+input {
+    padding-left: 1em;
+    margin: 5% 0;
+    margin-right: 5%;
+    margin-left: 2%;
+    border-radius: 30px;
+    line-height: 2em;
+    width: 75%;
+    font-family: "EB Garamond", serif;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    border-radius: 50%;
+    font-family: "EB Garamond", serif;
+    width: 2.2rem;
+    height: 2.2rem;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    transition: all ease-in 0.1s;
+}
+
+div img {
+    width: 30%;
+    margin: 0 35%;
+}
+
+
+.sps {
+    color: #3d5a80;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+h2 {
+    display: inline-block;
+    margin: 0 2rem;
+}
+
+#innerDiv h2 {
+    margin: 0 2rem;
+    margin-bottom: 1rem;
+    font-size: 2em;
+
+}
+
+#text {
+    text-align: center;
+    display: block;
+}
+
+#innerDiv {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    flex-grow: 100%;
+    justify-content: space-around;
+}
